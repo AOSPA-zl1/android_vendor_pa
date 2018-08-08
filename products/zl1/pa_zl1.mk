@@ -41,7 +41,7 @@ PRODUCT_MANUFACTURER := LeMobile
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=le_zl1 PRODUCT_NAME=ZL1_NA
 
 # Google client ID property.
-PRODUCT_GMS_CLIENTID_BASE := android-leeco
+PRODUCT_GMS_CLIENTID_BASE := android-letv
 
 # Build fingerprint from USA variant.
 PRODUCT_BUILD_PROP_OVERRIDES += \

@@ -2,36 +2,36 @@
     {
         "remote":       "github",
         "target_path":  "device/leeco/zl1",
-        "repository":   "AOSPA/android_device_leeco_zl1",
+        "repository":   "AOSPA-zl1/android_device_leeco_zl1",
         "revision":     "nougat-mr2"
     },
     {
-        "remote":       "blobs",
+        "remote":       "github",
         "target_path":  "vendor/leeco/zl1",
-        "repository":   "proprietary_vendor_leeco_zl1",
+        "repository":   "AOSPA-zl1/proprietary_vendor_leeco_zl1",
         "revision":     "nougat-mr2"
     },
     {
         "remote":       "github",
         "target_path":  "kernel/leeco/msm8996",
-        "repository":   "AOSPA/android_kernel_leeco_msm8996",
+        "repository":   "AOSPA-zl1/android_kernel_leeco_msm8996",
         "revision":     "nougat-mr2"
     },
     {
         "remote":       "github",
-        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "repository":   "AOSPA-zl1/android_hardware_qcom_audio",
         "target_path":  "hardware/qcom/audio",
         "revision":     "nougat-mr2-8996"
     },
     {
         "remote":       "github",
-        "repository":   "AOSPA/android_hardware_qcom_display",
+        "repository":   "AOSPA-zl1/android_hardware_qcom_display",
         "target_path":  "hardware/qcom/display",
         "revision":     "nougat-mr2-8996"
     },
     {
         "remote":       "github",
-        "repository":   "AOSPA/android_hardware_qcom_media",
+        "repository":   "AOSPA-zl1/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "nougat-mr2-8996"
     }

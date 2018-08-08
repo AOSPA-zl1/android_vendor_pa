@@ -16,7 +16,7 @@ export VENDOR := pa
 
 # Include versioning information
 # Format: Major.minor.maintenance(-TAG)
-export PA_VERSION := 7.3.1-EOL
+export PA_VERSION := 7.3.4
 
 export ROM_VERSION := $(PA_VERSION)-$(shell date -u +%Y%m%d)
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -104,7 +104,7 @@ PRODUCT_PACKAGES += ParanoidCamera
 endif
 
 # Build ParanoidHub
-PRODUCT_PACKAGES += ParanoidHub
+#PRODUCT_PACKAGES += ParanoidHub
 
 # Build ParanoidPapers
 PRODUCT_PACKAGES += ParanoidPapers
