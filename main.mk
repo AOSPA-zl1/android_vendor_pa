@@ -85,10 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/install/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/pa/prebuilt/addon.d/50-backuptool.sh:system/addon.d/50-backuptool.sh
 
-# Include PA GApps config
-PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/install/gapps-config.txt:install/gapps-config.txt
-
 # Include hostapd configuration
 PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
