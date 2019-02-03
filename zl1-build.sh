@@ -19,7 +19,7 @@ mka target-files-package dist
 croot
 
 ./build/tools/releasetools/sign_target_files_apks -o -d ~/.android-certs out/dist/*-target_files-*.zip signed-target_files.zip
-./build/tools/releasetools/ota_from_target_files -k ~/.android-certs/releasekey --block signed-target_files.zip pa_zl1-7.3.6-UNOFFICIAL-$PERSONAL_BUILD_DATE-signed.zip
+./build/tools/releasetools/ota_from_target_files -k ~/.android-certs/releasekey --block signed-target_files.zip pa_zl1-7.3.7-UNOFFICIAL-$PERSONAL_BUILD_DATE-signed.zip
 
 killall java
 exit 0

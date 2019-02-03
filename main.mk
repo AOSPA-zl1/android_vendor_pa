@@ -16,7 +16,7 @@ export VENDOR := pa
 
 # Include versioning information
 # Format: Major.minor.maintenance(-TAG)
-export PA_VERSION := 7.3.6
+export PA_VERSION := 7.3.7
 
 export ROM_VERSION := $(PA_VERSION)-$(shell date -u +%Y%m%d)
 PRODUCT_PROPERTY_OVERRIDES += \
